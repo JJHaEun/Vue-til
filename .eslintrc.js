@@ -9,14 +9,14 @@ module.exports = {
     // "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     // "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off"
     "prettier/prettier": ['error', {
-      singleQuote: true,
+      singleQuote: false,
       semi: true,
       useTabs: false,
       tabWidth: 2,
-      trailingComma: 'all',
+      trailingComma: "all",
       printWidth: 80,
       bracketSpacing: true,
-      arrowParens: 'avoid',
+      arrowParens: "avoid",
     }]
   },
   parserOptions: {
